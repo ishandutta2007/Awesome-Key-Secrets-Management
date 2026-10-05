@@ -63,7 +63,7 @@ This repository tracks top-tier **SaaS platforms** and **open-source projects** 
 
 The open-source ecosystem provides powerful self-hosted alternatives for platform engineering teams seeking total control, zero vendor lock-in, and strict data sovereignty. 
 
-Below is the list of top open-source secrets management repositories, **sorted by GitHub Stars_Count (descending)**:
+Below is the list of top open-source secrets management repositories, **sorted by GitHub_Stars_Count (descending)**:
 
 | Rank | Open-Source Repository | GitHub Star Popularity | Description & Primary Capabilities |
 | :---: | :--- | :---: | :--- |
