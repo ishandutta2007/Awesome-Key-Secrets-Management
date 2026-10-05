@@ -1,46 +1,48 @@
-# Awesome-Key-Secrets-Management
+# 🔐 Awesome Key & Secrets Management
 
-## Top Key & Secrets Management Platforms Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Key and Secrets Management Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Key-Secrets-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Key-Secrets-Management?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Key-Secrets-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Key-Secrets-Management?style=social" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Key-Secrets-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Key-Secrets-Management?color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Secrets Storage, Dynamic Credentials, Encryption as a Service, Certificate Management & Secure Configuration*
+> **Curated Ecosystem of SaaS Platforms, Enterprise Cloud KMS & Open-Source Secrets Engines**
+> 
+> *Comprehensive guide to Secrets Storage, Dynamic Credentials, Encryption as a Service (EaaS), Certificate Authority Management (PKI), and DevSecOps Configuration.*
 
-**Last updated: October 2026**
+---
 
+## 📌 Executive Summary & SEO Keywords
 
+This repository tracks top-tier **SaaS platforms** and **open-source projects** designed for **Key & Secrets Management**. Modern microservice architectures, CI/CD pipelines, Kubernetes clusters, and multi-cloud environments require centralized solutions to securely store, rotate, inject, and audit secrets (API keys, database passwords, TLS certificates, SSH keys, and OAuth tokens).
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Key & Secrets Management**. These systems securely store, rotate, inject, and audit secrets (API keys, database credentials, certificates, tokens) across applications, CI/CD, Kubernetes, and multi-cloud environments.
+**Primary Focus Areas & Security Topics:**
+`Secrets Management` • `Vault & OpenBao` • `API Key Security` • `Dynamic Credential Rotation` • `Encryption as a Service` • `Cloud KMS` • `DevSecOps` • `GitOps Config Encryption (SOPS/age)` • `Kubernetes Secrets Injection` • `Zero-Trust Identity`
 
+---
 
+## 📑 Table of Contents
 
-**Examples** include Azure Key Vault, HashiCorp Vault, AWS Secrets Manager, Google Cloud Secret Manager, 1Password Secrets Automation, CyberArk Conjur, Doppler, Infisical, Akeyless, and Bitwarden Secrets Manager (the category leaders).
+- [🌐 SaaS & Managed Secrets Platforms](#-saas--managed-secrets-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Open-Source Architecture Patterns](#%EF%B8%8F-open-source-architecture-patterns)
+- [💡 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Security Best Practices](#%EF%B8%8F-disclaimer--security-best-practices)
+- [⭐ Star History](#-star-history)
+- [☕ Support & Sponsorship](#-support--sponsorship)
 
+---
 
+## 🌐 SaaS & Managed Secrets Platforms
 
-**Open-source emphasis**: The secrets management space has strong open-source options. **HashiCorp Vault** (community edition), its Linux Foundation fork **OpenBao**, **Infisical**, **CyberArk Conjur**, **SOPS**, and **Bitwarden** provide robust self-hosted alternatives. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-> **Market Overview:** The Secrets Management Solutions market is estimated at **~$4.22 Billion in 2025/2026** (projected to reach **~$8.05 Billion by 2030**). The sector is **moderately to highly fragmented**, characterized by competition between hyperscale cloud-native vaults (AWS, Azure, GCP), traditional security/identity giants (Palo Alto Networks / CyberArk, IBM / HashiCorp), and specialized developer-first secrets platforms (1Password, Bitwarden, Akeyless, Doppler, Infisical).
+> **Market Overview:** The Secrets Management Solutions market is estimated at **~$4.22 Billion in 2025/2026** (projected to reach **~$8.05 Billion by 2030** at a ~13.8% CAGR). The sector is **moderately to highly fragmented**, characterized by competition between hyperscale cloud-native vaults (AWS, Azure, GCP), traditional security/identity giants (Palo Alto Networks / CyberArk, IBM / HashiCorp), and specialized developer-first secrets platforms (1Password, Bitwarden, Akeyless, Doppler, Infisical).
 
 | Product / Platform | Company Size (Revenue / Valuation) | Starting Price | Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- |
@@ -55,116 +57,84 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[Doppler](https://www.doppler.com/)**<br>Developer-centric secret management platform focused on environment variable sync, secret injection, and multi-cloud CI/CD pipelines. | ~$100M Valuation<br>($20M VC Raised) | Team plan starts at $7.00/user/month; Enterprise plan at $18.00/user/month | Developer plan is free forever for up to 5 users, unlimited secrets, and 3 environments |
 | **[Infisical (Cloud)](https://infisical.com/)**<br>Modern developer-first secrets management platform offering secret sync, secret scanning, PKI, and access control. | ~$50M - $100M Valuation<br>($19M VC Raised, ~$1.7M ARR) | Pro plan starts at $18.00 per identity (user/machine) per month | Free Cloud plan includes up to 5 identities, 3 projects, and 3 environments forever |
 
-
-
-## Open-Source GitHub Projects
-
-- **[HashiCorp Vault (Community / Open Source)](https://github.com/hashicorp/vault)**  
-
-  The foundational open-source secrets management engine supporting dynamic secrets, transit encryption, PKI, and extensive auth methods (note licensing changes; many teams also evaluate OpenBao).
-
-
-
-- **[OpenBao](https://github.com/openbao/openbao)**  
-
-  Linux Foundation fork of Vault under MPL-2.0, providing a fully open-source alternative focused on secrets, dynamic credentials, and encryption as a service.
-
-
-
-- **[Infisical](https://github.com/Infisical/infisical)**  
-
-  Open-source secrets, certificates, and privileged access platform with excellent developer UX, secret sync, and self-hosting support (MIT-licensed core).
-
-
-
-- **[CyberArk Conjur (Open Source)](https://github.com/cyberark/conjur)**  
-
-  Open-source secrets management and machine identity solution designed for modern DevOps and Kubernetes environments.
-
-
-
-- **[Bitwarden](https://github.com/bitwarden)**  
-
-  Open-source password and secrets management ecosystem; Secrets Manager components support machine secrets alongside human credentials.
-
-
-
-- **[SOPS (Secrets OPerationS)](https://github.com/getsops/sops)**  
-
-  Mozilla’s open-source tool for encrypting secrets in configuration files (YAML, JSON, ENV) using age, PGP, or cloud KMS—ideal for GitOps workflows.
-
-
-
-- **[Mozilla sops + age / age-plugin ecosystems](https://github.com/FiloSottile/age)**  
-
-  Modern encryption primitives commonly paired with SOPS for simple, auditable secret encryption.
-
-
-
-- **[Documentation and Vault / OpenBao / Infisical deployment guides](https://developer.hashicorp.com/vault)**  
-
-  Resources for running production secrets systems, configuring auth methods, and integrating with Kubernetes and CI.
-
-
-
-- **[Kubernetes External Secrets / Secrets Store CSI drivers](https://github.com/external-secrets/external-secrets)**  
-
-  Open operators that sync secrets from external vaults into Kubernetes secrets.
-
-
-
-- **[Berglas / similar cloud-native secret helpers](https://github.com/GoogleCloudPlatform/berglas)**  
-
-  Lightweight tools for managing secrets on specific clouds with encryption at rest.
-
-
-
-### Additional Strong Open-Source Options
-
-- Running **OpenBao** or Vault community for full-featured dynamic secrets and encryption-as-a-service.
-
-- Choosing **Infisical** for a modern, developer-centric open-source secrets platform.
-
-- Using **SOPS + age** for GitOps-friendly encrypted configuration.
-
-- Deploying **Conjur** for machine identity and secrets in regulated or Kubernetes-heavy environments.
-
-- Accepting that fully managed cloud services (Azure Key Vault, AWS Secrets Manager, Google Secret Manager) and polished SaaS experiences (Doppler, Akeyless, 1Password Secrets Automation) remain popular for operational simplicity.
-
-- Focusing open-source efforts on control, auditability, multi-cloud flexibility, and avoiding vendor lock-in.
-
-
-
-**Frameworks for building custom systems**: Deploy OpenBao or Infisical → configure auth (OIDC, Kubernetes, AppRole) → enable dynamic secrets engines → inject via CSI drivers or CI plugins → encrypt config with SOPS. Suitable for platform teams and security-conscious organizations. Many enterprises combine open-source cores with commercial support or cloud-managed services.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Secrets management is security-critical. Proper hardening, access policies, audit logging, and rotation strategies are essential. Self-hosted solutions require operational expertise. This list is not security architecture advice.
-
-
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source ecosystem provides powerful self-hosted alternatives for platform engineering teams seeking total control, zero vendor lock-in, and strict data sovereignty. 
+
+Below is the list of top open-source secrets management repositories, **sorted by GitHub Star Count (descending)**:
+
+| Rank | Open-Source Repository | GitHub Star Popularity | Description & Primary Capabilities |
+| :---: | :--- | :---: | :--- |
+| **#1** | **[HashiCorp Vault](https://github.com/hashicorp/vault)** | [![GitHub stars](https://img.shields.io/github/stars/hashicorp/vault?style=social)](https://github.com/hashicorp/vault/stargazers) | The industry-standard secrets management engine for dynamic credentials, transit encryption, PKI, and identity-based access across hybrid infrastructure. |
+| **#2** | **[Infisical](https://github.com/Infisical/infisical)** | [![GitHub stars](https://img.shields.io/github/stars/Infisical/infisical?style=social)](https://github.com/Infisical/infisical/stargazers) | Modern open-source secrets management platform featuring secret sync, Kubernetes operators, secret scanning, PKI, and developer-friendly web UI. |
+| **#3** | **[age](https://github.com/FiloSottile/age)** | [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/age?style=social)](https://github.com/FiloSottile/age/stargazers) | Simple, modern, and secure file encryption tool, format, and Go library featuring small explicit keys and UNIX-style composability. |
+| **#4** | **[SOPS (Secrets OPerationS)](https://github.com/getsops/sops)** | [![GitHub stars](https://img.shields.io/github/stars/getsops/sops?style=social)](https://github.com/getsops/sops/stargazers) | Editor of encrypted configuration files supporting YAML, JSON, ENV, and INI with age, PGP, and cloud KMS integration (ideal for GitOps workflows). |
+| **#5** | **[Bitwarden Server](https://github.com/bitwarden/server)** | [![GitHub stars](https://img.shields.io/github/stars/bitwarden/server?style=social)](https://github.com/bitwarden/server/stargazers) | Core backend infrastructure powering the open-source Bitwarden password and Secrets Manager ecosystem with end-to-end encryption. |
+| **#6** | **[External Secrets Operator](https://github.com/external-secrets/external-secrets)** | [![GitHub stars](https://img.shields.io/github/stars/external-secrets/external-secrets?style=social)](https://github.com/external-secrets/external-secrets/stargazers) | Kubernetes operator that synchronizes secrets from external APIs (Vault, AWS Secrets Manager, GCP Secret Manager, Azure Key Vault, Infisical) into K8s Secrets. |
+| **#7** | **[Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets)** | [![GitHub stars](https://img.shields.io/github/stars/bitnami-labs/sealed-secrets?style=social)](https://github.com/bitnami-labs/sealed-secrets/stargazers) | Bitnami's Kubernetes controller to encrypt secrets into custom resources (`SealedSecret`) that can be safely committed to public Git repositories. |
+| **#8** | **[OpenBao](https://github.com/openbao/openbao)** | [![GitHub stars](https://img.shields.io/github/stars/openbao/openbao?style=social)](https://github.com/openbao/openbao/stargazers) | Linux Foundation fork of Vault under MPL-2.0, providing a community-governed open-source secrets management and encryption-as-a-service engine. |
+| **#9** | **[Berglas](https://github.com/GoogleCloudPlatform/berglas)** | [![GitHub stars](https://img.shields.io/github/stars/GoogleCloudPlatform/berglas?style=social)](https://github.com/GoogleCloudPlatform/berglas/stargazers) | Google Cloud's command-line tool and Go library for storing and managing secrets on GCP with Cloud KMS encryption at rest. |
+| **#10** | **[CyberArk Conjur (OSS)](https://github.com/cyberark/conjur)** | [![GitHub stars](https://img.shields.io/github/stars/cyberark/conjur?style=social)](https://github.com/cyberark/conjur/stargazers) | Open-source enterprise secrets manager for machine-to-machine authentication, RBAC policy enforcement, and container security. |
+| **#11** | **[Yopass](https://github.com/jhaals/yopass)** | [![GitHub stars](https://img.shields.io/github/stars/jhaals/yopass?style=social)](https://github.com/jhaals/yopass/stargazers) | Secure, end-to-end encrypted secret sharing web application for sharing one-time passwords, secret notes, and files safely. |
+| **#12** | **[Teller](https://github.com/tellerops/teller)** | [![GitHub stars](https://img.shields.io/github/stars/tellerops/teller?style=social)](https://github.com/tellerops/teller/stargazers) | Portable CLI secret management tool for developers — fetch, sync, and export secrets across multiple cloud providers directly into local environments. |
+| **#13** | **[Summon](https://github.com/cyberark/summon)** | [![GitHub stars](https://img.shields.io/github/stars/cyberark/summon?style=social)](https://github.com/cyberark/summon/stargazers) | Command-line tool that parses a secrets spec file and injects retrieved secrets as environment variables into sub-processes. |
 
 ---
 
-**Made for platform engineers, security teams, and open infrastructure advocates.**
+## 🏗️ Open-Source Architecture Patterns
 
-Let's keep secrets protected, rotatable, and as open as practical.
+When designing custom secrets management architectures:
+
+1. **Enterprise Multi-Cloud Vault:** Deploy **OpenBao** or **HashiCorp Vault** → configure OIDC/Kubernetes/AppRole authentication → enable dynamic secrets engines → inject credentials via External Secrets Operator or CSI drivers.
+2. **GitOps & Infrastructure-as-Code:** Store encrypted secrets in Git repositories using **SOPS + age** or **Sealed Secrets**, decrypting only within the in-cluster deployment controller.
+3. **Developer Secret Injection:** Utilize **Infisical**, **Doppler**, or **Teller** to synchronize API keys seamlessly between developer workstations, CI/CD runners, and staging environments.
+
+---
+
+## 💡 How to Contribute
+
+We welcome contributions from platform engineers, security researchers, and maintainers!
+
+1. 🍴 **Fork the repository.**
+2. 📝 **Add or edit entries** in `README.md` following the tabular format.
+3. 🔎 **Ensure accuracy:** Include product name, official link, 1–2 sentence description, pricing tier, free tier limits, and open-source star count.
+4. 🚀 **Submit a Pull Request (PR)** with a clear title and summary of changes.
+
+Check out our full curated list of awesome lists at **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)**!
+
+---
+
+## ⚠️ Disclaimer & Security Best Practices
+
+- This list is **community-curated** for educational and architectural evaluation purposes.
+- **Security Warning:** Managing infrastructure secrets is mission-critical. Always enforce Least Privilege (RBAC), strict audit logging, key rotation policies, and Hardware Security Module (HSM) backends for high-assurance environments.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Key-Secrets-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Key-Secrets-Management&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Sponsorship
+
+If you found this repository helpful for your cloud security architecture or DevSecOps workflow, please consider supporting the project!
+
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🔀 **Fork & Share** with your engineering team and community.
+- 💖 **Sponsor the Author**: Support continued maintenance and curated security tooling lists via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-ishandutta2007-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for platform engineers, DevSecOps practitioners, and open-source security advocates.</b>
+</p>
