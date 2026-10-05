@@ -40,63 +40,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Azure Key Vault](https://azure.microsoft.com/products/key-vault/)**  
+> **Market Overview:** The Secrets Management Solutions market is estimated at **~$4.22 Billion in 2025/2026** (projected to reach **~$8.05 Billion by 2030**). The sector is **moderately to highly fragmented**, characterized by competition between hyperscale cloud-native vaults (AWS, Azure, GCP), traditional security/identity giants (Palo Alto Networks / CyberArk, IBM / HashiCorp), and specialized developer-first secrets platforms (1Password, Bitwarden, Akeyless, Doppler, Infisical).
 
-  Microsoft’s managed service for storing secrets, keys, and certificates with tight integration into Azure identity and applications.
-
-
-
-- **[HashiCorp Vault (HCP Vault / Enterprise)](https://www.hashicorp.com/products/vault)**  
-
-  Industry-standard secrets management platform offering dynamic secrets, encryption as a service, PKI, and identity-based access (community edition available open-source; enterprise and HCP are commercial).
-
-
-
-- **[AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)**  
-
-  Fully managed AWS service for storing and rotating secrets with native IAM integration and automatic rotation for supported services.
-
-
-
-- **[Google Cloud Secret Manager](https://cloud.google.com/secret-manager)**  
-
-  Google Cloud’s managed secrets store with versioning, IAM controls, and integration across GCP services.
-
-
-
-- **[1Password Secrets Automation](https://1password.com/developers/secrets-automation)**  
-
-  Developer-focused secrets automation from 1Password, combining human password management with machine secrets and CLI/CI integrations.
-
-
-
-- **[CyberArk Conjur](https://www.cyberark.com/products/privileged-access-management/conjur/)**  
-
-  Enterprise secrets management solution (open-source core available) focused on privileged access and machine identity in hybrid environments.
-
-
-
-- **[Doppler](https://www.doppler.com/)**  
-
-  Developer-friendly secrets platform specialized in environment variable management, sync, and injection across apps and CI/CD.
-
-
-
-- **[Infisical (Cloud)](https://infisical.com/)**  
-
-  Modern secrets platform with strong developer experience; offers both open-source self-hosted and commercial cloud editions.
-
-
-
-- **[Akeyless](https://www.akeyless.io/)**  
-
-  SaaS secrets management focused on zero-trust, SaaS-delivered vaulting, and dynamic secrets without managing infrastructure.
-
-
-
-- **[Bitwarden Secrets Manager](https://bitwarden.com/products/secrets-manager/)**  
-
-  Secrets management offering from Bitwarden, available as part of their broader open-source password and secrets ecosystem.
+| Product / Platform | Company Size (Revenue / Valuation) | Starting Price | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Azure Key Vault](https://azure.microsoft.com/products/key-vault/)**<br>Microsoft's managed vault for secrets, keys, and certificates with native Azure IAM integration. | ~$3.10T Market Cap<br>(~$245B Annual Revenue) | $0.03 per 10,000 secret operations; HSM keys from $1.00/key/month | Azure Free Account provides $200 credit (valid 30 days) + 10,000 free operations/month for standard secrets |
+| **[Google Cloud Secret Manager](https://cloud.google.com/secret-manager)**<br>Google Cloud's managed secrets store with versioning and IAM access controls across GCP services. | ~$2.10T Market Cap<br>(~$307B Annual Revenue) | $0.06 per active secret version/month + $0.03 per 10,000 API operations | Always Free tier includes 6 active secret versions & 10,000 access operations free per month |
+| **[AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)**<br>Fully managed AWS service for storing and rotating database credentials and API keys with native IAM integration. | ~$2.00T Market Cap<br>(~$575B Revenue / AWS ~$100B+) | $0.40 per secret stored/month + $0.05 per 10,000 API calls | 30-day free trial with 10 secrets & 10,000 API calls; new AWS accounts receive $200 in free credits |
+| **[HashiCorp Vault (HCP Vault)](https://www.hashicorp.com/products/vault)**<br>Enterprise secrets management platform offering dynamic credentials, encryption as a service, and PKI. | ~$200B Market Cap (IBM)<br>(Acquired HashiCorp for $6.4B) | HCP Vault Radar starts at $0.25/secret/month; HCP Vault Dedicated from $0.03/hour (~$22/month) | $50 in free credits valid for 30 days on HCP Vault Cloud; self-hosted Open Source edition free forever |
+| **[CyberArk Conjur](https://www.cyberark.com/products/privileged-access-management/conjur/)**<br>Enterprise secrets management focused on privileged access management (PAM) and machine identities. | ~$110B Market Cap (Palo Alto Networks)<br>(Acquired CyberArk for $25B; $1.36B Rev) | Enterprise SaaS platform starts at ~$15,000/year base licensing | 30-day free trial for Cloud SaaS; open-source core (Conjur OSS) free forever for self-hosting |
+| **[1Password Secrets Automation](https://1password.com/developers/secrets-automation)**<br>Developer secrets automation integrating password management with machine secrets, service accounts, and CI/CD pipelines. | $6.80B Valuation<br>(~$400M+ ARR) | Included in Business plan at $7.99/user/month (includes 3 service accounts & 50 secrets; extra secrets $1/month) | 14-day free trial with full feature access (up to 100 secrets/users during trial); no perpetual free tier |
+| **[Bitwarden Secrets Manager](https://bitwarden.com/products/secrets-manager/)**<br>DevOps secrets management solution integrated into the broader Bitwarden open-source security ecosystem. | ~$500M - $1.00B Valuation<br>($100M VC Raised) | Teams plan starts at $6.00/user/month (includes 50 secrets & 3 service accounts; additional secrets $0.50/month) | Free forever plan includes up to 2 users, 3 projects, 3 machine accounts, and 50 secrets |
+| **[Akeyless](https://www.akeyless.io/)**<br>SaaS-delivered secrets management platform using distributed Fragment Cryptography (DFC) for zero-trust vaulting. | ~$300M - $400M Valuation<br>($80M VC Raised, ~$17.7M ARR) | Starter Enterprise plan starts at $250/month (includes 500 static secrets & 5 client connections) | Free plan includes 5 clients, 500 static secrets, 5 dynamic secrets, and 1 certificate issuer forever |
+| **[Doppler](https://www.doppler.com/)**<br>Developer-centric secret management platform focused on environment variable sync, secret injection, and multi-cloud CI/CD pipelines. | ~$100M Valuation<br>($20M VC Raised) | Team plan starts at $7.00/user/month; Enterprise plan at $18.00/user/month | Developer plan is free forever for up to 5 users, unlimited secrets, and 3 environments |
+| **[Infisical (Cloud)](https://infisical.com/)**<br>Modern developer-first secrets management platform offering secret sync, secret scanning, PKI, and access control. | ~$50M - $100M Valuation<br>($19M VC Raised, ~$1.7M ARR) | Pro plan starts at $18.00 per identity (user/machine) per month | Free Cloud plan includes up to 5 identities, 3 projects, and 3 environments forever |
 
 
 
